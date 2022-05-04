@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+body {
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-header {
+    padding: 10px 20px;
+}
+
+.modal-body {
+    padding: 25px 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.update {
+    text-align: center;
+}
+
+.delete {
+    text-align: center;
+}
+
+.update-btn {
+    background-color: rgb(0, 0, 255);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: red;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.add-btn {
+    background-color: rgb(0, 158, 0);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    width: 175px;
+    margin-left: 10px;
+}
+
+.add {
+    text-align: right;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+i {
+    color: white;
+}
+
+.fa-xmark {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-pen {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.update-btn, .delete-btn {
+    align-items: center;
+    height: 35px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/**/
+
+.modal-body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-body > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+}
+
+.modal-body > form > input,
+.modal-body > form > select {
+    margin: 10px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.btn-close {
+    margin-right: 5px;
+}
+
+.btn-close {
+    margin-right: 5px;
+}
+
+.modal-body > div {
+    font-size: 20px;
+}
+
+.modal-body > button {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin-top: 10px;
+}
+
+/**/
+
+.table-and-btn {
+    margin-bottom: 25px;
+}
+
+.click-td:hover {
+    text-decoration: underline;
+    color: rgb(63, 66, 236);
+    cursor: pointer;
+}
+
+table td,
+table th {
+    cursor: default;
+}
